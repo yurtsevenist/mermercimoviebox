@@ -42,9 +42,9 @@
 					<div class="header-right">
 						<form action="#">
 							<select>
-								<option value="Movies">Movies</option>
-								<option value="Movies">Movies</option>
-								<option value="Movies">Movies</option>
+								<option value="Movies">Filmler</option>
+								<option value="Movies">Filmler</option>
+								<option value="Movies">Filmler</option>
 							</select>
 							<input type="text"/>
 							<button><i class="icofont icofont-search"></i></button>
