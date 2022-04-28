@@ -6,7 +6,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="breadcrumb-area-content">
-							<h1>Ramazan değişiklik</h1>
+							<h1>Enes1</h1>
 						</div>
 					</div>
 				</div>
