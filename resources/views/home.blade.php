@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','MovieBox-Anasayfa değişim1')
+@section('title','MovieBox-Anasayfa TunaDeğişim')
 @section('content')
 		<!-- hero area start -->
 		<section class="hero-area" id="home">
