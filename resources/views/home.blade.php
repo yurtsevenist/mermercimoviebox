@@ -2,7 +2,7 @@
 @section('title','MovieBox-Anasayfa Tuna')
 @section('content')
 		<!-- hero area start -->
-        {{-- Tuna Değişim --}}
+        {{-- Tuna Değişim Denemesi --}}
 		<section class="hero-area" id="home">
 			<div class="container">
 				<div class="hero-area-slider">
