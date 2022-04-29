@@ -1,7 +1,6 @@
 @extends('layouts.master')
 @section('title','MovieBox-Anasayfa Tuna')
 @section('content')
-		<!-- hero area start -->
         {{-- Tuna Değişim Denemesi --}}
 		<section class="hero-area" id="home">
 			<div class="container">
