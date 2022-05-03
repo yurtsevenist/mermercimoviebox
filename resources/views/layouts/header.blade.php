@@ -51,7 +51,12 @@
 						</form>
 						<ul>
 							{{-- <li><a href="#">Welcome Guest!</a></li> --}}
-							<li><a class="login-popup" href="#">Giriş Yap</a></li>
+                            @auth
+                                <li><a href="">{{ Auth::user()->name }}</a></li>
+                                <li><a href="{{ route('logout') }}">Çıkış Yap</a></li>
+                            @else
+                                <li><a class="login-popup" href="#">Giriş Yap</a></li>
+                            @endauth
 						</ul>
 					</div>
 					<div class="menu-area">
@@ -76,6 +81,7 @@
 				</div>
 			</div>
 		</header>
+        {{-- //login --}}
 		<div class="login-area">
 			<div class="login-box rounded">
 				<a href="#"><i class="icofont icofont-close rounded"></i></a>
@@ -105,7 +111,9 @@
 				</form>
 
 			</div>
+            @include('layouts.alert')
 		</div>
+        {{-- //end login --}}
 		<div class="buy-ticket">
 			<div class="container">
 				<div class="buy-ticket-area">

@@ -19,4 +19,4 @@ Route::get('/',[SiteController::class,'homePage'])->name('home');
 Route::get('movie',[SiteController::class,'moviePage'])->name('movie');
 
 Route::post('login',[UserController::class,'loginPost'])->name('loginPost');
-
+Route::get('logout',[UserController::class,'logout'])->name('logout');
