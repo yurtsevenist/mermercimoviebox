@@ -1,6 +1,6 @@
 (function ($) {
 	"use strict";
-	
+
 	/*----------------------------
     Responsive menu Active
     ------------------------------ */
@@ -8,7 +8,7 @@
 		allowParentLinks: true,
 		prependTo: '.responsive-menu',
 	});
-	
+
 	/*----------------------------
     START - Scroll to Top
     ------------------------------ */
@@ -39,7 +39,7 @@
 		$('.login-area').hide();
 		return false;
 	});
-	
+
 	/*----------------------------
     START - Slider activation
     ------------------------------ */
@@ -127,25 +127,25 @@
 			}
 		}
 	});
-	
+
 	/*----------------------------
 	START - videos popup
 	------------------------------ */
 	$('.popup-youtube').magnificPopup({type:'iframe'});
 	//iframe scripts
-	$.extend(true, $.magnificPopup.defaults, {  
+	$.extend(true, $.magnificPopup.defaults, {
 		iframe: {
 			patterns: {
 				//youtube videos
 				youtube: {
-					index: 'youtube.com/', 
-					id: 'v=', 
-					src: 'https://www.youtube.com/embed/%id%?autoplay=1' 
+					index: 'youtube.com/',
+					id: 'v=',
+					src: 'https://www.youtube.com/embed/%id%?autoplay=1'
 				}
 			}
 		}
 	});
-	
+
 	/*----------------------------
     START - Isotope
     ------------------------------ */
@@ -158,13 +158,13 @@
         filter: selector
       })
     });
-	
+
 	/*----------------------------
     START - Preloader
     ------------------------------ */
 	jQuery(window).load(function(){
 		jQuery("#preloader").fadeOut(500);
 	});
-	
+
 
 }(jQuery));

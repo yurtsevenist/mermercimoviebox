@@ -693,6 +693,17 @@ hr {
     right: 40px;
     bottom: 40px;
 }
+.profi-page{
+    height: 90vh;
+}
+.href-style-none{
+    text-decoration: none;
+    color: #222!important;
+}
+.href-style-none:hover{
+    text-decoration: none;
+    color: rgb(122, 122, 122)!important;
+}
 .news-slide-area {
     position: relative;
     overflow: hidden;
@@ -1101,6 +1112,9 @@ hr {
     z-index: 99;
 	padding: 0 15px;
 }
+
+
+
 
 .login-box {
     max-width: 380px;
