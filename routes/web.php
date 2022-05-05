@@ -24,4 +24,5 @@ Route::post('login',[UserController::class,'loginPost'])->name('loginPost');
 Route::get('logout',[UserController::class,'logout'])->name('logout');
 Route::middleware(['auth', 'verified'])->prefix('user')->group(function () {
     Route::get('{name}/profil',[UserController::class,'profilPage'])->name('profil');
+    Route::post('profilUpdate',[UserController::class,'profilUpdate'])->name('profilUpdate');
 });

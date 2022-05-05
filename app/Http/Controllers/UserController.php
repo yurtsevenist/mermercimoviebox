@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\LoginPostRequest;
+use App\Http\Requests\ProfilUpdateRequest;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -36,6 +37,10 @@ class UserController extends Controller
     {
         return view('profil');
     }//end profilPage
-
+    //profilUpdate
+    public function profilUpdate(ProfilUpdateRequest $request)
+    {
+        dd($request);
+    }//end profilUpdate
 
 }

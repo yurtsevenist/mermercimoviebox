@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>MovieBox-TR</title>
+    <title>@yield('title','Moviebox')</title>
     <!-- Favicon Icon -->
     <link rel="icon" type="image/png" href="{{ asset('tema') }}/assets/img/favcion.png" />
     <!-- Bootstrap CSS -->

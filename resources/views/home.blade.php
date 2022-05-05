@@ -1,5 +1,5 @@
 @extends('layouts.master')
-@section('title','MovieBox-Anasayfa Tuna')
+@section('title','Anasayfa')
 @section('content')
         {{-- Tuna Değişim Denemesi --}}
 		<section class="hero-area" id="home">
@@ -24,7 +24,7 @@
 									</div>
 									<h4>180k voters</h4>
 								</div>
-								<p>She is a devil princess from the demon world. She grew up sheltered by her parents and doesn't really know how to be evil or any of the common actions,   She is unable to cry due to Keita's accidental first wish, despite needed for him to wish...</p>
+								<p>deneme1...</p>
 								<h3>Cast:</h3>
 								<div class="slide-cast">
 									<div class="single-slide-cast">
@@ -78,7 +78,7 @@
 									</div>
 									<h4>180k voters</h4>
 								</div>
-								<p>She is a devil princess from the demon world. She grew up sheltered by her parents and doesn't really know how to be evil or any of the common actions,   She is unable to cry due to Keita's accidental first wish, despite needed for him to wish...</p>
+								<p>deneme2...</p>
 								<h3>Cast:</h3>
 								<div class="slide-cast">
 									<div class="single-slide-cast">
@@ -132,7 +132,7 @@
 									</div>
 									<h4>180k voters</h4>
 								</div>
-								<p>She is a devil princess from the demon world. She grew up sheltered by her parents and doesn't really know how to be evil or any of the common actions,   She is unable to cry due to Keita's accidental first wish, despite needed for him to wish...</p>
+								<p>deneme3...</p>
 								<h3>Cast:</h3>
 								<div class="slide-cast">
 									<div class="single-slide-cast">
@@ -450,10 +450,10 @@
 					</div>
 					<div class="col-lg-3 text-center text-lg-left">
 					    <div class="portfolio-sidebar">
-							<img src="{{asset('tema')}}/assets/img/sidebar/sidebar1.png" alt="sidebar" />
-							<img src="{{asset('tema')}}/assets/img/sidebar/sidebar2.png" alt="sidebar" />
-							<img src="{{asset('tema')}}/assets/img/sidebar/sidebar3.png" alt="sidebar" />
-							<img src="{{asset('tema')}}/assets/img/sidebar/sidebar4.png" alt="sidebar" />
+							<img src="{{asset('tema')}}/assets/img/sidebar/reklam.png" alt="sidebar" />
+							<img src="{{asset('tema')}}/assets/img/sidebar/reklam.png" alt="sidebar" />
+							<img src="{{asset('tema')}}/assets/img/sidebar/reklam.png" alt="sidebar" />
+							<img src="{{asset('tema')}}/assets/img/sidebar/reklam.png" alt="sidebar" />
 						</div>
 					</div>
 				</div>

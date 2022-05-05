@@ -125,15 +125,18 @@ input[type="submit"],
 button[type="submit"],
 input[type="email"],
 input[type="url"],
+input[type="date"],
 input[type="tel"],
 input[type="search"],
 input[type="password"],
 input[type="number"],
+select,
 textarea {
     background: #24262d;
     width: 100%;
     padding: 8px 15px;
     border: none;
+    color: white;
 }
 input[type="submit"],
 button[type="submit"] {
@@ -149,6 +152,9 @@ textarea:focus {
     color: #fece50;
 	font-size: 40px;
 	margin-right: 5px;
+}
+.mss-2{
+    margin-right: 4px!important;
 }
 .mt-100 {
     margin-top: 100px;

@@ -20,8 +20,10 @@ return new class extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
+            $table->integer('gender')->default(0)->comment('0 belirtme istemiyorum 1 erkek 2 kadın 3 diğer');
             $table->integer('type')->default(0);
             $table->rememberToken();
+            $table->timestamp('date')->nullable();
             $table->timestamps();
         });
     }
