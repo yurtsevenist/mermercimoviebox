@@ -97,8 +97,8 @@
                 <h6>Şifre</h6>
                 <input type="password" required name="password" style="color: black" class="passwordInput" />
                 <button type="submit" class="theme-btn">Giriş</button>
-                <span>Henüz hesabınız yokmu?</span>
-                <span class="text-center">Veya sosyal medya yoluyla</span>
+                <span>Siteye kayıt olmak için referans kodu gereklidir?</span>
+                <span class="text-center"></span>
                 <br>
                 <div class="login-social">
                     <a href="#"><i class="icofont icofont-social-facebook"></i></a>

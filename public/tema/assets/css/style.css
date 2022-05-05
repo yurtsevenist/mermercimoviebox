@@ -1203,15 +1203,19 @@ hr {
 }
 .login-social a i.icofont-social-twitter {
     background: #50abf1;
+    border-radius: 30px;
 }
 .login-social a i.icofont-social-linkedin {
     background: #dd4b39;
+    border-radius: 30px;
 }
 .login-social a i.icofont-social-google-plus {
     background: #0084b1;
+    border-radius: 30px;
 }
 .login-social a i.icofont-camera {
     background: #c536a4;
+    border-radius: 30px;
 }
 /*----------------------------------
 -------- blog PAGE CSS START -------
