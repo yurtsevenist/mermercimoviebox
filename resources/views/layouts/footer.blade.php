@@ -1,6 +1,6 @@
 <!-- footer section start -->
 <footer class="footer">
-    <div class="container">
+    {{-- <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="widget">
@@ -42,7 +42,7 @@
             </div>
         </div>
         <hr />
-    </div>
+    </div> --}}
     <div class="copyright">
         <div class="container">
             <div class="row">
