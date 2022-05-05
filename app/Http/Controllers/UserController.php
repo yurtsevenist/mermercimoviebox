@@ -30,7 +30,12 @@ class UserController extends Controller
         Auth::logout();
         return redirect()->route('home');
     }
-    //end logour
+    //end logout
+    //profilPage
+    public function profilPage()
+    {
+        return view('profil');
+    }//end profilPage
 
 
 }

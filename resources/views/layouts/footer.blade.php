@@ -36,7 +36,7 @@
                     <p>Subscribe to our newsletter system now to get latest news from us.</p>
                     <form action="#">
                         <input type="text" placeholder="Enter your email.."/>
-                        <button>SUBSCRIBE NOW</button>
+                        <button class="mt-2">SUBSCRIBE NOW</button>
                     </form>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="copyright-content">
                         <a href="#" class="scrollToTop">
-                            Back to top<i class="icofont icofont-arrow-up"></i>
+                            Menüye Git<i class="icofont icofont-arrow-up"></i>
                         </a>
                     </div>
                 </div>

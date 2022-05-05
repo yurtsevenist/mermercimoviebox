@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\UserController;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Str;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -20,3 +22,6 @@ Route::get('movie',[SiteController::class,'moviePage'])->name('movie');
 
 Route::post('login',[UserController::class,'loginPost'])->name('loginPost');
 Route::get('logout',[UserController::class,'logout'])->name('logout');
+Route::middleware(['auth', 'verified'])->prefix('user')->group(function () {
+    Route::get('{name}/profil',[UserController::class,'profilPage'])->name('profil');
+});
