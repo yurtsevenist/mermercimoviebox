@@ -99,6 +99,7 @@
                 <button type="submit" class="theme-btn">Giriş</button>
                 <span>Henüz hesabınız yokmu?</span>
                 <span class="text-center">Veya sosyal medya yoluyla</span>
+                <br>
                 <div class="login-social">
                     <a href="#"><i class="icofont icofont-social-facebook"></i></a>
                     <a href="#"><i class="icofont icofont-social-twitter"></i></a>

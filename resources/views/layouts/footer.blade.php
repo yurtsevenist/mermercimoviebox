@@ -5,7 +5,7 @@
             <div class="col-lg-3 col-sm-6">
                 <div class="widget">
                     <img src="{{asset('tema')}}/assets/img/logo.png" alt="about" />
-                    <p>7th Harley Place, London W1G 8LZ United Kingdom</p>
+                    <p>Designd by: <br> <a href="https://tuna.ihmtal.com" target="_blank">Tuna</a> , <a href="">Mustafa</a> , <a href="https://ramazan.ihmtal.com">Ramazan</a> <br> <a href="https://enes.ihmtal.com">Enes</a> , <a href="https://utku.ihmtal.com">Utku</a></p>
                     <h6><span>Call us: </span>(+880) 111 222 3456</h6>
                 </div>
             </div>
@@ -48,7 +48,7 @@
             <div class="row">
                 <div class="col-lg-6 text-center text-lg-left">
                     <div class="copyright-content">
-                        <p><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></p>
+                        <p><a target="_blank" href="">Moviebox</a></p>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
