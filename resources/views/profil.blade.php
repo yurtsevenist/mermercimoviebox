@@ -28,7 +28,7 @@
                             <ul>
                                 <li>
                                     <div class="transformers-left">
-                                        Height:
+                                      boy:
                                     </div>
                                     <div class="transformers-right">
                                         5.7”
@@ -36,7 +36,7 @@
                                 </li>
                                 <li>
                                     <div class="transformers-left">
-                                        Weight:
+                                        kilo:
                                     </div>
                                     <div class="transformers-right">
                                         1136LB
