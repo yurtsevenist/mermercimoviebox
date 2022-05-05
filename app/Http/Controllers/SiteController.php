@@ -16,4 +16,9 @@ class SiteController extends Controller
     {
         return view('movies');
     }//end movie page
+    public function mymoviePage()
+    {
+    return view('mymovies');
+    }
+
 }
